@@ -34,7 +34,7 @@ export class ShopItemClass extends React.Component {
             <div className="divider"></div>
             <div class="purchase-info">
               <div className="price">
-                 {item.currency}{item.price}
+                 {item.currency}{item.price.toFixed(2)}
              </div>
              <button>Добавить в корзину</button>
             </div>  
